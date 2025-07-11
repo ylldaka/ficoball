@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#s1{
+    width: 100%;
+    height: 100px;
+    
+
+}
+.nav-list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: #E6E1C9;
+}
+
+.nav-list>nav>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+.nav-list>nav>ul>li{
+    display: inline-block;
+    margin-right: 25px;
+
+}
+.nav-list>nav>ul{
+    list-style: none;
+}
+.nav-list>nav>ul>li::after{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background-color: orangered;
+    transition: 0.3s;
+    display: block;
+
+}
+.nav-list>nav>ul>li:hover::after{
+    width: 100%;
+}
+.nav-list>.logo{
+    width: 100px;
+    height: 100px;
+    background-image: url(logo_ficoball-removebg-preview.png\ 1.0.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+/* ---------------------s2------------------- */
+#s2{
+    width: 100%;
+    min-height: 100vh;
+
+    
+    
+}
+.header{
+    background-color: #E96B1E;
+    color: black;
+    width: 100%;
+    height: 15vh;
+    margin-top: 50px;
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+    
+}
+.text{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    font-size: 23px;
+    text-align: left;
+    font-weight: 500 !important;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    /* border: 2px black solid; */
+}
+.right,.left{
+    width: 50%;
+    /* border: 2px solid; */
+    background-color: #e6e1c950;
+    padding: 10px;
+    /* border-radius: 20px; */
+    
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+}
+.left{
+    border-radius: 20px 0 0 20px;
+}
+/* ----------------------------------------footer-------------------------------------- */
+footer{
+    width: 100%;
+    height: 70vh; 
+    background-color: #111111;
+    color:whitesmoke;
+    margin-top:200px;
+}
+footer>.text-foot{
+    
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+}
+footer>.text-foot>header{
+    font-size: 35px;
+    text-align: center;
+    color: #E96B1E;
+    font-weight: 600;
+}
+footer>.text-foot>p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+}
+footer>.link-foot{
+width: 40%;
+margin: auto;
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+
+}
+footer>.link-foot>a>img{
+    width: 40px;
+    height: 40px;
+}
+footer>.copyright{
+margin-top: 32vh;
+background-color: #000000;
+font-size: 10px;
+}

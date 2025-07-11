@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#s1 {
+  width: 100%;
+  height: 100px;
+}
+.nav-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  background-color: #e6e1c9;
+}
+
+.nav-list > nav > ul > li > a {
+  color: black;
+  text-decoration: none;
+}
+.nav-list > nav > ul > li {
+  display: inline-block;
+  margin-right: 25px;
+}
+.nav-list > nav > ul {
+  list-style: none;
+}
+.nav-list > nav > ul > li::after {
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background-color: orangered;
+  transition: 0.3s;
+  display: block;
+}
+.nav-list > nav > ul > li:hover::after {
+  width: 100%;
+}
+.nav-list > img {
+  width: 100px;
+  height: 100px;
+}
+/* -------------------S2------------------------- */
+#s2 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.produkt > h3,
+.produkt > p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.produkt {
+  width: 405px;
+  height: 470px;
+  background-color: #f6f6f6;
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin-top: 60px;
+}
+.produkt:hover > p,
+.produkt:hover > h3 {
+  transform: translateY(-250px);
+}
+.produkt > p,
+.produkt > h3 {
+  pointer-events: none;
+}
+
+.image {
+  width: 405px;
+  height: 400px;
+  transition: 0.5s;
+}
+.blur {
+  width: 100%;
+  height: 100%;
+  transition: 2s ease;
+  padding: 5px 5px 76px 5px;
+}
+.blur:hover {
+  backdrop-filter: blur(3px);
+  transition: 1s;
+}
+
+#i1 {
+  background-image: url(topi.1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#i2 {
+  background-image: url(topi.2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#i3 {
+  background-image: url(topi.3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#i4 {
+  background-image: url(topi.4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#i5 {
+  background-image: url(topi.5.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#i6 {
+  background-image: url(topi.6.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#i7 {
+  background-image: url(topi.7-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#i8 {
+  background-image: url(topi.8-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#i9 {
+  background-image: url(topi.9-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* --------------------------Shoes------------------------------- */
+#shoe-id:hover > p,
+#shoe-id:hover > h3 {
+  transform: translateY(-380px);
+}
+#o1 {
+  background-image: url(kd17.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#o2 {
+  background-image: url(immorality4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#o3 {
+  background-image: url(lebron.22.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#o4 {
+  background-image: url(gt.3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#o5 {
+  background-image: url(tatum-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#o6 {
+  background-image: url(wittnes.2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#o7 {
+  background-image: url(FREAK6.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#o8 {
+  background-image: url(LUKA+3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#o9 {
+  background-image: url(kd.x.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ----------------------------------------shirt------------------------------------------ */
+#k1 {
+  background-image: url(shirt.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#k2 {
+  background-image: url(shirt.2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#k3 {
+  background-image: url(shirt.3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#k4 {
+  background-image: url(shirt.4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#k5 {
+  background-image: url(shirt.5.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#k6 {
+  background-image: url(shirt.6.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#k7 {
+  background-image: url(shirt.7.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#k8 {
+  background-image: url(shirt.8.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#k9 {
+  background-image: url(shirt.9.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#shirt-id:hover > p {
+  transform: translateY(-80px);
+  transition: 0.4s;
+}
+/* ----------------------------------------footer-------------------------------------- */
+footer {
+  width: 100%;
+  height: 70vh;
+  background-color: #111111;
+  color: whitesmoke;
+  margin-top: 200px;
+}
+footer > .text-foot {
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+}
+footer > .text-foot > header {
+  font-size: 35px;
+  text-align: center;
+  color: #e96b1e;
+  font-weight: 600;
+}
+footer > .text-foot > p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+}
+footer > .link-foot {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+footer > .link-foot > a > img {
+  width: 40px;
+  height: 40px;
+}
+footer > .copyright {
+  margin-top: 32vh;
+  background-color: #000000;
+  font-size: 10px;
+}
+/* --------------------------------------Sleeves------------------------------------------ */
+#l1 {
+  background-image: url(sleeve.2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#l2 {
+  background-image: url(sleeve.3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#l3 {
+  background-image: url(sleeve.4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#l4 {
+  background-image: url(sleeve.5.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#l5 {
+  background-image: url(sleeve.6.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#l6 {
+  background-image: url(sleeve.7.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#l7 {
+  background-image: url(sleeve.8.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#l8 {
+  background-image: url(sleeve.9.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#l9 {
+  background-image: url(sleeve.10.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#shirt-id:hover > p,
+#shirt-id:hover > h3 {
+  transform: translateY(-80px);
+  transition: 0.4s;
+}
